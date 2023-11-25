@@ -1,0 +1,139 @@
+/* -------------------------------navbar1 */
+#nav1 {
+  background-color: #121922;
+  border-bottom: 1px solid #eee;
+}
+#imgLogo {
+  width: 120px;
+  padding: 5px;
+}
+#location,
+#account {
+  text-decoration: none;
+  color: #fff;
+  width: 10%;
+}
+#location2 {
+  text-decoration: none;
+  color: #fff;
+  width: 15%;
+}
+#locationIcon {
+  font-size: 1.5vw;
+}
+#searchForm {
+  width: 50%;
+}
+#searchForm2 {
+  width: 51%;
+  margin-left: 2%;
+}
+#buttonAll {
+  background-color: #eee;
+}
+#buttonSearchIcon {
+  background-color: #ffbd5b;
+}
+#buttonSearchIcon:hover {
+  background-color: #ffa837;
+}
+#heartIcon,
+#cartIcon {
+  padding: 0.6rem;
+  color: #f1f1f1;
+  font-size: 2vw;
+  border-radius: 10%;
+}
+#cartDiv,
+#heartDiv {
+  font-size: 0.8vw;
+  background-color: #ffbb62;
+}
+#langIcon {
+  color: #fff;
+  font-size: 1vw;
+  font-weight: bold;
+}
+#flagImg {
+  width: 20px;
+  height: 20px;
+}
+#textCart {
+  font-size: 0.7vw;
+  text-transform: lowercase;
+}
+
+#cartIcon:hover,
+#langIcon:hover,
+#location:hover,
+#account:hover,
+#heartIcon:hover,
+#imgLogo:hover {
+  border: 1px solid #eee;
+}
+/* -------------------------------navbar2 */
+#nav2 {
+  background-color: #232f3e;
+}
+#toggler-icon-button {
+  color: #fff;
+}
+#hello-sign {
+  background-color: #131921;
+  color: #fff;
+}
+#a1,
+#a2,
+#a3,
+#a4,
+#a5,
+#a6 {
+  color: #fff;
+  font-size: 1vw;
+}
+#barNav2 {
+  margin-right: 0.5rem;
+}
+#prime {
+  color: #fff;
+}
+#nav-user {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  text-align: center;
+  color: rgb(1, 1, 20);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+/* --------------------------------------footer */
+/* #back-to-top{
+        margin-top: 1rem;
+    } */
+#back-to-top,
+#copyright {
+  background-color: #37475a;
+  text-align: center;
+  padding: 1rem;
+}
+#back-to-topLink {
+  text-decoration: none;
+  color: #fff;
+}
+#back-to-top:hover {
+  background-color: #434f5e;
+}
+#table_footer {
+  background-color: #232f3e;
+  padding: 3rem 0 3rem 8rem;
+  border-bottom: 1px solid #c7c7c7;
+}
+#copyright {
+  background-color: #232f3e;
+  color: #fff;
+}
+td,
+th {
+  color: #fff;
+}

@@ -1,0 +1,113 @@
+*{
+    font-size: 1vw;
+}
+/* ---------------------------------sign in */
+#problem_sign{
+    border:1px solid #ff0000;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: none;
+    }
+    h4{
+        color: #ff0000;
+    }
+#siginDiv,
+#registerDiv{
+    padding: 2rem;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+#sign_section,
+#regester_section{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+img{
+    width: 100px;
+}
+#Continue_buttonS,
+#Continue_buttonR{
+background-color: #ffbb62;
+}
+#Continue_buttonS:hover,
+#Continue_buttonR:hover{
+    background-color: #e0a557;
+}
+#Create_account_button{
+    background-color: #eeeeee;
+}
+
+#Create_account_button:hover{
+    background-color: #cecece;
+}
+#Continue_buttonS,
+#Continue_buttonR,
+#Create_account_button{
+    border: 1px solid #d3d3d3;
+}
+img,
+#email_sign,
+p,
+#Continue_buttonS,
+#Continue_buttonR,
+#Create_account_button,
+#divGrop{
+    margin-bottom: 2rem;
+}
+#divGrop,
+#Continue_buttonS,
+#Continue_buttonR{
+    margin-top: 2rem;
+}
+#New_to_Amazon{
+    color: #aaaaaa;
+}
+#border_bottom1,
+#border_bottom2,
+#New_to_Amazon{
+    display: inline-block;
+}
+#border_bottom1,
+#border_bottom2{
+    width: 30%;
+    border: 1px solid #eee;
+}
+
+/* -------------------------------------regester */
+#registerDiv{
+display: none;
+}
+#registerDivBorder{
+    width: 50%;
+    border-bottom: 1px solid #ececec;
+    margin-left:5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.input_regester{
+    margin-top: 1rem;
+}
+label{
+    font-weight: bold;
+}
+/* #invalid_password::before{
+    content: "i";
+    margin-right: 1rem;
+    color: blue;
+} */
+#invalid_name,
+#invalid_email,
+#invalid_password,
+#invalid_rePassword{
+    color: #ff0000;
+}
+/* ------------------------------footer */
+footer{
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+    padding: 2rem 0 5rem 0;
+    font-size: smaller;
+    color: #797979;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet" href="../style/homePage.css">
+    <link rel="stylesheet" href="../style/header_footer.css">
+    <link rel="stylesheet" href="../style/all.css">
+    <link rel="stylesheet" href="../style/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../image/fivicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- -----------------------------------------------navbar1 -->
+    <nav class="navbar navbar-expand-lg  bg-body-tertiary" id="nav1">
+        <div class="container-fluid">
+            <a class="navbar-brand btn col-1" href="homePage.html"><img src="../image/logo3.png" id="imgLogo" /></a>
+            <a href="#" class="col-2 btn" id="location"><i id="locationIcon" class="fa-solid fa-location-dot"></i> Hello
+                Select your address</a>
+            <form class="input-group" role="search" id="searchForm">
+                <button type="button" id="buttonAll" class="btn dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>All</span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another</a></li>
+                    <li><a class="dropdown-item" href="#">Something</a></li>
+                </ul>
+                <input class="form-control col-8 " type="search" placeholder="Search by category name"
+                    aria-label="Search" id="product_search">
+                <button class="btn" id="buttonSearchIcon" type="submit"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <button type="button" id="langIcon" class="btn"><span><img src="../image/flag2.png" alt="" id="flagImg"
+                        class="me-1"></span>EN</button>
+            <a href="signIn.html" target="_blank" class="btn" id="account">Hello sign in Account& lists</a>
+            <a href=""> <i class="fa-solid fa-heart" id="heartIcon">
+                    <div class="position-absolute translate-middle badge rounded-pill" id="heartDiv">0</div>
+                </i></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-flatbed" id="cartIcon">
+                    <div class="position-absolute translate-middle badge rounded-pill" id="cartDiv">0</div><span
+                        id="textCart">cart</span>
+                </i></a>
+        </div>
+    </nav>
+
+    <!--------------------------------------- -->
+    <section id="category_section"></section>
+
+    <!-- -----------------------------------footer -->
+    <footer>
+        <a href="#nav1" id="back-to-topLink">
+            <section id="back-to-top">Back to top</section>
+            </section>
+        </a>
+        <!-- ----------------------------------------------------- -->
+        <section id="table_footer">
+            <div class="">
+                <table class="table table-borderless" style="font-size: 1vw;">
+                    <thead class="">
+                        <tr>
+                            <th>Get to Know Us</th>
+                            <th>Shop with Us</th>
+                            <th>Make Money with Us</th>
+                            <th>Let Us Help You</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>About Amazon</td>
+                            <td>Your Account</td>
+                            <td>Protect and build your brand</td>
+                            <td>Help</td>
+                        </tr>
+                        <tr>
+                            <td>Careers</td>
+                            <td>Your Orders</td>
+                            <td>Advertise Your Products</td>
+                            <td>Shipping & Delivery</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon Science</td>
+                            <td>Your Addresses</td>
+                            <td>Sell on Amazon</td>
+                            <td>Returns & Replacements</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Your Lists</td>
+                            <td>Fulfillment by Amazon</td>
+                            <td>Amazon App Download</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="copyright">©1996–2023, Amazon.com, Inc. or its affiliates</section>
+    </footer>
+    <script src="../script/header.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script/search_category.js"></script>
+</body>
+
+</html>
